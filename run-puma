@@ -1,5 +1,6 @@
 #!/bin/bash
 cd $HOME
+source /etc/profile.d/proxy.sh
 # on system boot, and root have no rbenv installed,
 #   after start-stop-daemon switched to current user, we have to init rbenv
 if [ -d "$HOME/.rbenv/bin" ]; then
