@@ -10,7 +10,10 @@
 #                    initscript to be placed in /etc/init.d.
 ### END INIT INFO
 
-# Author: Darío Javier Cravero <dario@exordo.com>
+# Puma jungle init script
+# Heavily customized for amazon ami \ rbenv (+using pumactl from rbenv) for baltimore.ru
+# also see startup file /usr/local/bin/run-puma and config file /etc/puma.conf
+
 #
 # Do NOT "set -e"
 
